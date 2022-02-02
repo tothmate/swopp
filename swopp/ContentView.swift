@@ -1,16 +1,22 @@
-//
-//  ContentView.swift
-//  swopp
-//
-//  Created by Akos Toth-Mate on 2022. 02. 02..
-//
-
 import SwiftUI
+import WebKit
+
+struct SwoppView : UIViewRepresentable {
+    func makeUIView(context: Context) -> WKWebView  {
+        let webConfiguration = WKWebViewConfiguration()
+        webConfiguration.allowsInlineMediaPlayback = true
+        return WKWebView(frame: .zero, configuration: webConfiguration)
+    }
+    
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        let request = URLRequest(url: URL(string: "https://www.joinswapp.com/dubai/en-us")!)
+        uiView.load(request)
+    }
+}
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SwoppView()
     }
 }
 

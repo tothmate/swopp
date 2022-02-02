@@ -272,6 +272,9 @@
 				DEVELOPMENT_TEAM = AECNPE8DJ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swopp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "just testing";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "just testing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +304,9 @@
 				DEVELOPMENT_TEAM = AECNPE8DJ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swopp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "just testing";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "just testing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
